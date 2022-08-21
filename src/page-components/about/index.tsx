@@ -36,7 +36,7 @@ function index() {
           <Stack direction="row" mt={3} textAlign="center" spacing={5}>
             <Button startIcon={<AccountTreeIcon />}> 1+ experience</Button>
             <Button startIcon={<TaskAltIcon />}> 2+ projects</Button>
-            <Button startIcon={<CallIcon />}>24/7 Support </Button>
+            <Button startIcon={<CallIcon />}>24/7 Contact </Button>
           </Stack>
         </Stack>
       </Stack>

@@ -4,6 +4,8 @@ import Header from "../../page-components/header";
 import HeroSection from "../../page-components/hero-section";
 import About from "../../page-components/about";
 import Project from "../../page-components/project";
+import Form from "../../page-components/contact/form";
+
 function index() {
   return (
     <RootContainer>
@@ -11,6 +13,7 @@ function index() {
       <HeroSection />
       <About />
       <Project />
+      <Form />
     </RootContainer>
   );
 }
