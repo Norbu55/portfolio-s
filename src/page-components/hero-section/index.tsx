@@ -2,10 +2,12 @@ import { Typography, Stack, Box, Button } from "@mui/material";
 import React from "react";
 import ProfileImg from "../../common/images/photo.jpg";
 import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
+import Header from "../../page-components/header";
 
 function index() {
   return (
     <>
+      <Header />
       <Stack
         direction="row"
         mt={8.1}
