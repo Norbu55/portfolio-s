@@ -14,14 +14,14 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
-    // "baseUrl": "./",
-    // "paths": {
-    //   "@/": ["./"],
-    //   "src/*": ["./src/*"],
-    //   "page-components/*": ["./src/page-components/*"],
-    //   "pages/*": ["./src/pages/*"]
-    // }
+    "jsx": "react-jsx",
+    "baseUrl": "./",
+    "paths": {
+      "@/": ["./"],
+      "src/*": ["./src/*"],
+      "page-components/*": ["./src/page-components/*"],
+      "pages/*": ["./src/pages/*"]
+    }
   },
 
   "include": ["src"],

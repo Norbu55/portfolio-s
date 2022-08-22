@@ -16,28 +16,28 @@ import Avatar from "@mui/material/Avatar";
 import About from "../about";
 
 import { useNavigate } from "react-router-dom";
+import { Link, animateScroll as scroll } from "react-scroll";
+
 const data = [
   {
     title: "Home",
-    link: "/",
+    link: "hero-section",
   },
   {
     title: "About Me",
-    link: "/about",
+    link: "about-section",
   },
   {
     title: "Project",
-    link: "/project",
+    link: "project",
   },
   {
     title: "Contact",
-    link: "/contact",
+    link: "contact",
   },
 ];
 
 function Header() {
-  const navigate = useNavigate();
-
   return (
     <AppBar sx={{ background: "#ffff", boxShadow: "none" }}>
       <Toolbar>
@@ -60,9 +60,20 @@ function Header() {
               border={1}
             >
               {data.map((item) => (
-                <Button onClick={() => navigate(item.link)}>
-                  <Button> {item.title} </Button>
-                </Button>
+                // <Button onClick={() => navigate(item.link)}>
+                //   <Button> {item.title} </Button>
+                // </Button>
+                <Link
+                  to={item.link}
+                  spy={true}
+                  smooth={true}
+                  offset={50}
+                  duration={300}
+                  isDynamic={true}
+                  key={item.link}
+                >
+                  <Typography color="black">{item.title}</Typography>
+                </Link>
               ))}
             </Stack>
           </Stack>

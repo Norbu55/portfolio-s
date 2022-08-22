@@ -11,15 +11,15 @@ import { RootContainer } from "./common/wrapper/root-container";
 function App() {
   return (
     <div>
-      <RootContainer>
-        {" "}
-        <Routes>
+      <Navbar />
+      {/* <RootContainer> */}{" "}
+      {/* <Routes>
           <Route path="/" element={<HeroSection />} />
           <Route path="/about" element={<About />} />
           <Route path="/project" element={<Project />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-      </RootContainer>
+      </RootContainer> */}
     </div>
   );
 }

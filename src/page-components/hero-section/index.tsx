@@ -6,11 +6,11 @@ import Header from "../../page-components/header";
 
 function index() {
   return (
-    <>
+    <div id="hero-section">
       <Header />
       <Stack
         direction="row"
-        mt={8.1}
+        mt={10}
         justifyContent="space-between"
         pl={2}
         pr={2}
@@ -44,7 +44,7 @@ function index() {
           Download CV
         </Button>
       </Stack>
-    </>
+    </div>
   );
 }
 export default index;

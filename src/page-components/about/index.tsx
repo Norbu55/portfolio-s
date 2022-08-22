@@ -8,8 +8,8 @@ import TaskAltIcon from "@mui/icons-material/TaskAlt";
 
 function index() {
   return (
-    <>
-      <Stack direction="row" mt={12.5} justifyContent="space-between">
+    <div id="about-section">
+      <Stack direction="row" mt={15} justifyContent="space-between">
         <Box>
           <img src={AboutImg} alt="about image" height="400px" />
         </Box>
@@ -40,7 +40,7 @@ function index() {
           </Stack>
         </Stack>
       </Stack>
-    </>
+    </div>
   );
 }
 export default index;

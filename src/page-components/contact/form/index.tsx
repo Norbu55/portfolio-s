@@ -3,7 +3,7 @@ import { Button, Stack, Grid, TextField } from "@mui/material";
 
 const index = () => {
   return (
-    <>
+    <div id="contact">
       <Grid container spacing={2}>
         <Grid item xs={12} lg={8}>
           <Grid container spacing={4} mt={10} ml={0.5} width="80%">
@@ -49,7 +49,7 @@ const index = () => {
       <Stack width="10%" mt={4} ml={5}>
         <Button variant="contained">Submit</Button>
       </Stack>
-    </>
+    </div>
   );
 };
 

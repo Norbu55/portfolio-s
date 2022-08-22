@@ -3,7 +3,7 @@ import React from "react";
 
 function index() {
   return (
-    <>
+    <div id="project">
       <Stack width="100%" textAlign="center" mt={2}>
         <Typography variant="h4">Services</Typography>
         <Typography variant="h3">Check My Services</Typography>
@@ -13,7 +13,7 @@ function index() {
         <Box width="350px" height="350px" border={0.5} borderRadius="10px" />
         <Box width="350px" height="350px" border={0.5} borderRadius="10px" />
       </Stack>
-    </>
+    </div>
   );
 }
 

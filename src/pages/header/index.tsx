@@ -9,7 +9,6 @@ import Form from "../../page-components/contact/form";
 function index() {
   return (
     <RootContainer>
-     
       <HeroSection />
       <About />
       <Project />
